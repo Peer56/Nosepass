@@ -1,6 +1,6 @@
 # 🗿🗿 Nosepass 🗿🗿
-This repository is very stupid! do not use this if you're serious about making a GBA pokemon project!!!!
-[Use pokeemerald instead:](https://github.com/pret/pokeemerald)
+This repository is very stupid! Do not use this if you're serious about making a GBA pokemon project!!!!
+[Use pokeemerald instead](https://github.com/pret/pokeemerald)
 
 ## Installation
 
