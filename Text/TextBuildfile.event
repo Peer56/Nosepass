@@ -1,0 +1,21 @@
+#inctbl "PE" "Pokemon.tbl"
+SpeciesNames:=$083185D3
+
+//not working because string in macro
+#define SetSpeciesName(pkmnID,text) PUSH; ORG SpeciesNames+(pkmnID-1)*11; STRING text "PE"; BYTE 0xFF; FILL SpeciesNames+pkmnID*11-CURRENTOFFSET; POP
+/*
+SetSpeciesName(Treecko,TESTING)
+SetSpeciesName(Torchic,MOYAI)
+SetSpeciesName(Mudkip,EMERLDFILE)
+*/
+
+#define WriteToSpeciesName(pkmnID) ORG SpeciesNames+(pkmnID-1)*11; PUSH; FILL 11; POP
+
+PUSH
+WriteToSpeciesName(Treecko)
+STRING "TESTING" "PE"; BYTE $FF
+WriteToSpeciesName(Torchic)
+STRING "MOYAI" "PE"; BYTE $FF
+WriteToSpeciesName(Mudkip)
+STRING "EMERLDFILE" "PE"; BYTE $FF
+POP

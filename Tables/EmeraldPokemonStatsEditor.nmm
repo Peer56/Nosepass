@@ -1,0 +1,157 @@
+1
+Emerald Pokemon Editor
+0x3203CC
+440
+28
+PokemonSpeciesList.txt
+NULL
+
+Base HP
+0
+1
+NEDU
+NULL
+
+Base Atk
+1
+1
+NEDU
+NULL
+
+Base Def
+2
+1
+NEDU
+NULL
+
+Base Spe
+3
+1
+NEDU
+NULL
+
+Base SpAtk
+4
+1
+NEDU
+NULL
+
+Base SpDef
+5
+1
+NEDU
+NULL
+
+Type 1
+6
+1
+NEHU
+NULL
+
+Type 2
+7
+1
+NEHU
+NULL
+
+Catch Rate
+8
+1
+NEDU
+NULL
+
+Experience Yield
+9
+1
+NEDU
+NULL
+
+EVs Byte 1 (HP Atk Def Spe)
+10
+1
+NEHU
+NULL
+
+EVs Byte 2 (SpAtk SpDef 0 0)
+11
+1
+NEHU
+NULL
+
+Item 1
+12
+2
+NEHU
+NULL
+
+Item 2
+14
+2
+NEHU
+NULL
+
+Gender Ratio
+16
+1
+NEDU
+NULL
+
+Egg Cycles
+17
+1
+NEDU
+NULL
+
+Base Friendship
+18
+1
+NEDU
+NULL
+
+Growth Rate
+19
+1
+NEDU
+NULL
+
+Egg Group 1
+20
+1
+NEHU
+NULL
+
+Egg Group 2
+21
+1
+NEHU
+NULL
+
+Ability
+22
+1
+NEHU
+NULL
+
+Ability 2
+23
+1
+NEHU
+NULL
+
+Safari Zone Flee Rate
+24
+1
+NEDU
+NULL
+
+Body Color
+25
+2
+NEHU
+NULL
+
+Separator
+27
+1
+NEHU
+NULL
